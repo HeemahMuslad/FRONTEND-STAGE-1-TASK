@@ -70,3 +70,15 @@ a {
   text-align: center;
   color: #101828;
 }
+
+@media screen and (max-width: 425px){
+    button {
+  width: 343px;
+  height: 68px;
+  background: #eaecf0;
+  border-radius: 8px;
+  border: 1px solid #eaecf0;
+  margin: 20px auto;
+}
+
+}
