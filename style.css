@@ -7,8 +7,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  margin:50px auto;
-  
+  margin: 50px auto;
 }
 .profilepic {
   display: flex;
@@ -50,7 +49,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- 
 }
 button {
   width: 1152px;
@@ -59,9 +57,9 @@ button {
   border-radius: 8px;
   border: 1px solid #eaecf0;
   margin: 20px auto;
+  cursor: pointer;
 }
 a {
-  width: 86px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -71,14 +69,13 @@ a {
   color: #101828;
 }
 
-@media screen and (max-width: 425px){
-    button {
-  width: 343px;
-  height: 68px;
-  background: #eaecf0;
-  border-radius: 8px;
-  border: 1px solid #eaecf0;
-  margin: 20px auto;
-}
-
+@media screen and (max-width: 425px) {
+  button {
+    width: 343px;
+    height: 68px;
+    background: #eaecf0;
+    border-radius: 8px;
+    border: 1px solid #eaecf0;
+    margin: 20px auto;
+  }
 }
